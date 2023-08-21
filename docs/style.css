@@ -20,7 +20,7 @@ body {
 }
 
 .content {
-  background-image: url(../images/image-qr-code.png);
+  background-image: url('../images/image-qr-code.png');
   background-size: cover;
   height: 250px;
   margin: 0px 15px 15px 15px;
