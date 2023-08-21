@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  height: 430px;
+  width: 280px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+.content {
+  background-image: url(images/image-qr-code.png);
+  background-size: cover;
+  height: 250px;
+  margin: 0px 15px 15px 15px;
+  border-radius: 10px;
+}
+.text {
+  margin: 25px;
+}
+
+.text h3,
+p {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  margin-top: 15px;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
+.attribution {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media query for desktop screens */
+@media (min-width: 1441px) {
+  .container {
+    margin: auto;
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 375px) {
+    .container {
+      width: 100%;
+      border-radius: 0; 
+    }
+  }
+  
